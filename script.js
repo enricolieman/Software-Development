@@ -1,5 +1,5 @@
 const wrapper = document.querySelector('.wrapper'),
-  inputPart = wrapper.querySelector('.input-part'),
+  inputPart = document.querySelector('.input-part'),
   infoTxt = inputPart.querySelector('.info-txt'),
   inputField = inputPart.querySelector('input'),
   locationBtn = inputPart.querySelector('button'),
