@@ -7,10 +7,30 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
+    <nav>
+      <input type="checkbox" id="check"> 
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">
+        Weather App
+      </label>
+      <ul>
+        <li><a class="active" href="#"> Home </a></li>
+        <li><a href="#"> About </a></li>
+        <li><a href="#"> Contact </a></li>
+        <li><a href="#"> FAQ </a></li>
+      </ul>
+    </nav>
+
+    <div class="wrapper"> -
+      <header>
+          <i class="bx bx-left-arrow-alt"></i>
+          Weather App
+      </header>
       <section class="input-part">
         <p class="info-txt"></p>
         <input type="text" placeholder="Enter city name" spellcheck="false" required />
@@ -48,7 +68,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </div> 
 
     <script src="script.js"></script>
   </body>
